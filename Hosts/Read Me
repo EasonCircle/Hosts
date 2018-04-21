@@ -2,4 +2,12 @@ Hosts文件主要作用是定义IP地址和主机名的映射关系，是一个�
 当用户在浏览器中输入一个需要登录的网址时，系统会首先自动从Hosts文件中寻找对应的IP地址，一旦找到，浏览器会立即打开对应网页.
 如果没有找到，则浏览器会将网址提交DNS服务器进行IP地址解析。这也是提高快速打开网页的方法！
 
-Hosts 文件位于 C:\WINDOWS\system32\drivers\etc
+Windows 系统hosts位于 C:WindowsSystem32driversetchosts
+
+Android（安卓）系统hosts位于 /system/etc/hosts
+
+Mac（苹果电脑）系统hosts跟Linux一样位于 /etc/hosts
+
+iPhone（iOS）系统hosts跟Linux Mac一样位于 /etc/hosts
+
+Linux系统hosts位于 /etc/hosts
